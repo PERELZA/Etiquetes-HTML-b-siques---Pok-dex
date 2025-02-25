@@ -1,0 +1,39 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f5ebdc;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: #faebd7;
+    padding: 20px;
+    border: 2px solid black;
+    max-width: 600px;
+}
+h1 {
+    font-size: 24px;
+}
+img {
+    width: 200px;
+}
+.tipo {
+    background: orange;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
