@@ -37,3 +37,16 @@ img {
     font-weight: bold;
     border-radius: 5px;
 }
+.evoluciones {
+    margin-top: 20px;
+}
+.evolucion {
+    display: inline-block;
+    margin: 10px;
+}
+.evolucion img {
+    width: 100px;
+}
+.evolucion p {
+    margin: 5px 0;
+}
