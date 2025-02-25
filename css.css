@@ -5,6 +5,7 @@ body {
     background: url('IMG/kanto-map.jpeg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Pixelify Sans', sans-serif; /* Aplicar la fuente Pixelify Sans a todo el cuerpo */
+    font-size: 20px; /* Tamaño de fuente base más grande */
 }
 
 /* Título centrado con fondo negro transparente */
@@ -22,7 +23,7 @@ body {
     margin: 0;
     color: white;
     font-family: 'Pixelify Sans', sans-serif; /* Fuente estilo pixel */
-    font-size: 24px;
+    font-size: 36px; /* Tamaño de fuente más grande */
     text-align: center;
 }
 
@@ -55,7 +56,7 @@ body {
     list-style: none;
     padding: 0;
     color: white;
-    font-size: 18px;
+    font-size: 24px; /* Tamaño de fuente más grande */
     text-transform: capitalize;
     margin-top: 20px; /* Espacio entre la Pokédex y la lista */
     margin-left: 20px; /* Alinear la lista a la izquierda con la Pokédex */
@@ -70,6 +71,7 @@ body {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+    font-size: 20px; /* Tamaño de fuente más grande */
 }
 
 
