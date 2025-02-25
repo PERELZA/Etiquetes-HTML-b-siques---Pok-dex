@@ -21,12 +21,17 @@ body {
 .title h1 {
     margin: 0;
     color: white;
-    font-family: "Pixelify Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    font-family: 'Pixelify Sans', sans-serif; /* Fuente estilo pixel */
     font-size: 24px;
     text-align: center;
+}
+
+/* Estilo para la fuente Pixelify Sans */
+.pixelify-sans {
+    font-family: 'Pixelify Sans', serif;
+    font-optical-sizing: auto;
+    font-weight: normal; /* Puedes cambiar el peso si lo necesitas */
+    font-style: normal;
 }
 
 /* Contenedor de la Pokédex */
@@ -54,10 +59,6 @@ body {
     text-transform: capitalize;
     margin-top: 20px; /* Espacio entre la Pokédex y la lista */
     margin-left: 20px; /* Alinear la lista a la izquierda con la Pokédex */
-    font-family: "Pixelify Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 .pokemon-list li {
@@ -70,4 +71,5 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
 
