@@ -1,42 +1,29 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background: url('/C:/GITHUB/Pokedex/IMG/kanto-map.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
 }
-
-.container {
-    position: relative;
-    display: inline-block;
-}
-
-.background {
-    width: 100%;
-    max-width: 1200px;
-    border-radius: 10px;
-}
-
 .pokedex {
     position: absolute;
     top: 20px;
     left: 20px;
     width: 250px;
+    background: red;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
-
-.pokedex-img {
-    width: 100%;
-}
-
-.pokemon-list {
-    position: absolute;
-    top: 50px;
-    left: 20px;
+.pokedex h1 {
     color: white;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
-    line-height: 20px;
-    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    font-size: 24px;
+}
+.pokemon-list {
+    list-style: none;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
 }
