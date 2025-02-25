@@ -1,10 +1,32 @@
+/* Elimina los márgenes y rellenos por defecto */
 body {
     margin: 0;
     padding: 0;
-    background: url('/C:/GITHUB/Pokedex/IMG/kanto-map.jpeg') no-repeat center center fixed;
+    background: url('IMG/kanto-map.jpeg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
 }
+
+/* Título centrado con fondo negro transparente */
+.title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7); /* Fondo negro con transparencia */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.title h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo pixel */
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Contenedor de la Pokédex */
 .pokedex {
     position: absolute;
     top: 20px;
@@ -15,11 +37,15 @@ body {
     padding: 15px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
+
+/* Estilos del título dentro de la Pokédex */
 .pokedex h1 {
     color: white;
     text-align: center;
     font-size: 24px;
 }
+
+/* Lista de Pokémon */
 .pokemon-list {
     list-style: none;
     padding: 0;
