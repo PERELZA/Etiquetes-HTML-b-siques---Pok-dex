@@ -21,7 +21,7 @@ body {
 .title h1 {
     margin: 0;
     color: white;
-    font-family: 'Pixelify Sans', sans-serif; /* Fuente estilo pixel */
+    font-family: 'Pixelify Sans', sans-serif;/* Fuente estilo pixel */
     font-size: 24px;
     text-align: center;
 }
