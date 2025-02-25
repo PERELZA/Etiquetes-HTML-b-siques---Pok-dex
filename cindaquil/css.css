@@ -1,5 +1,5 @@
 body {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     background-color: #f5ebdc;
     text-align: center;
     margin: 0;
@@ -13,8 +13,7 @@ body {
     background: #faebd7;
     padding: 20px;
     border: 2px solid black;
-    max-width: 400px; /* Reducir el ancho máximo */
-    height: 80vh; /* Aumentar la altura */
+    max-width: 600px; /* Misma anchura que la página de Gengar */
 }
 h1 {
     font-size: 24px;
@@ -53,3 +52,4 @@ img {
 .evolucion p {
     margin: 5px 0;
 }
+
