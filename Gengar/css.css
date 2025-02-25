@@ -13,7 +13,8 @@ body {
     background: #faebd7;
     padding: 20px;
     border: 2px solid black;
-    max-width: 600px;
+    max-width: 400px; /* Reducir el ancho máximo */
+    height: 80vh; /* Aumentar la altura */
 }
 h1 {
     font-size: 24px;
