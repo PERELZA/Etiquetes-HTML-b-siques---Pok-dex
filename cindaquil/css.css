@@ -1,6 +1,7 @@
 body {
     font-family: 'Press Start 2P', cursive;
-    background-color: #f5ebdc;
+    background: url('../IMG/fono\ personajes.jpg') no-repeat center center fixed; /* Fondo para la página de Cyndaquil */
+    background-size: cover;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body {
     height: 100vh;
 }
 .container {
-    background: #faebd7;
+    background: rgba(250, 235, 215, 0.9); /* Fondo semitransparente para el contenedor */
     padding: 20px;
     border: 2px solid black;
     max-width: 600px; /* Misma anchura que la página de Gengar */
