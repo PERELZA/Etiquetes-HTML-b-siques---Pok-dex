@@ -22,7 +22,7 @@ img {
     width: 200px;
 }
 .tipo {
-    background: orange;
+    background: rgb(255, 0, 179);
     padding: 5px;
     border-radius: 5px;
     color: white;
