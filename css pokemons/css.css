@@ -64,6 +64,30 @@ img {
     display: inline-block;
     margin: 2px;
 }
+.tipoH {
+    background: rgb(18, 246, 254);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.tipoR {
+    background: rgb(188, 167, 2);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.tipoHA {
+    background: rgb(250, 153, 238);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
 .boton {
     display: inline-block;
     margin-top: 10px;
