@@ -15,7 +15,7 @@ body {
     padding: 20px;
     border: 2px solid black;
     max-width: 600px; /* Reducir el ancho máximo */
-    height: 60vh; /* Ajustar la altura automáticamente */
+    height: auto; /* Ajustar la altura automáticamente */
     overflow-y: auto; /* Añadir scroll si el contenido es mayor que el contenedor */
 }
 h1 {
