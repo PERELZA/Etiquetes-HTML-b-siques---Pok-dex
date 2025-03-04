@@ -5,7 +5,7 @@ body {
     background: url('IMG/kanto-map.jpeg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Pixelify Sans', sans-serif; /* Aplicar la fuente Pixelify Sans a todo el cuerpo */
-    font-size: 20px; /* Tamaño de fuente base más grande */
+    font-size: 40px; /* Tamaño de fuente base más grande */
 }
 
 /* Título centrado con fondo negro transparente */
