@@ -112,6 +112,22 @@ img {
     display: inline-block;
     margin: 2px;
 }
+.tipoA {
+    background: rgb(49, 138, 255); /* Fondo verde para diferenciar */
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.tipoRO {
+    background: rgb(117, 122, 42); /* Fondo verde para diferenciar */
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
 .boton {
     display: inline-block;
     margin-top: 10px;
