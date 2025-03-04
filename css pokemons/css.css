@@ -30,6 +30,24 @@ img {
     display: inline-block;
     margin: 2px;
 }
+    .tipoG {
+        background: rgb(166, 0, 255);
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        margin: 2px;
+}
+
+.tipoV {
+    background: rgb(255, 6, 189); /* Fondo verde para diferenciar */
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+
 .boton {
     display: inline-block;
     margin-top: 10px;
