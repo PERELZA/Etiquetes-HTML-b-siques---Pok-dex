@@ -14,7 +14,7 @@ body {
     background: rgba(250, 235, 215, 0.9); /* Fondo semitransparente para el contenedor */
     padding: 20px;
     border: 2px solid black;
-    max-width: 800px; /* Reducir el ancho máximo */
+    max-width: 300px; /* Reducir el ancho máximo */
     height: auto; /* Ajustar la altura automáticamente */
     overflow-y: auto; /* Añadir scroll si el contenido es mayor que el contenedor */
 }
