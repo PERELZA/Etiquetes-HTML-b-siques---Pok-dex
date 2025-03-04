@@ -48,6 +48,24 @@ img {
     margin: 2px;
 }
 
+.tipoD {
+    background: rgb(0, 98, 255);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+
+.tipoP {
+    background: rgb(255, 0, 179);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+
 .boton {
     display: inline-block;
     margin-top: 10px;
