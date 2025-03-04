@@ -1,0 +1,55 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: url('../IMG/fono\ personajes.jpg') no-repeat center center fixed; /* Fondo para la página de Cyndaquil */
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: rgba(250, 235, 215, 0.9); /* Fondo semitransparente para el contenedor */
+    padding: 20px;
+    border: 2px solid black;
+    max-width: 600px; /* Misma anchura que la página de Gengar */
+}
+h1 {
+    font-size: 24px;
+}
+img {
+    width: 200px;
+}
+.tipo {
+    background: orange;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.evoluciones {
+    margin-top: 20px;
+}
+.evolucion {
+    display: inline-block;
+    margin: 10px;
+}
+.evolucion img {
+    width: 100px;
+}
+.evolucion p {
+    margin: 5px 0;
+}
