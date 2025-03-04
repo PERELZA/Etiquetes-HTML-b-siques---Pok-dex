@@ -14,7 +14,8 @@ body {
     background: rgba(250, 235, 215, 0.9); /* Fondo semitransparente para el contenedor */
     padding: 20px;
     border: 2px solid black;
-    max-width: 600px; /* Misma anchura que la página de Gengar */
+    max-width: 400px; /* Reducir el ancho máximo */
+    height: auto; /* Ajustar la altura automáticamente */
 }
 h1 {
     font-size: 24px;
@@ -30,15 +31,14 @@ img {
     display: inline-block;
     margin: 2px;
 }
-    .tipoG {
-        background: rgb(166, 0, 255);
-        padding: 5px;
-        border-radius: 5px;
-        color: white;
-        display: inline-block;
-        margin: 2px;
+.tipoG {
+    background: rgb(166, 0, 255);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
 }
-
 .tipoV {
     background: rgb(255, 6, 189); /* Fondo verde para diferenciar */
     padding: 5px;
@@ -47,7 +47,6 @@ img {
     display: inline-block;
     margin: 2px;
 }
-
 .tipoD {
     background: rgb(0, 98, 255);
     padding: 5px;
@@ -56,7 +55,6 @@ img {
     display: inline-block;
     margin: 2px;
 }
-
 .tipoP {
     background: rgb(255, 0, 179);
     padding: 5px;
@@ -65,7 +63,6 @@ img {
     display: inline-block;
     margin: 2px;
 }
-
 .boton {
     display: inline-block;
     margin-top: 10px;
